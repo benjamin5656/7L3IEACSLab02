@@ -6,4 +6,10 @@ using namespace std;
 
   string show(  ) ;
 
+  Vigenere(string key);
+
+string decrypt(string text);
+
+
+
 #endif // PROBLEM2_H
