@@ -37,6 +37,36 @@ for (countt=0; countt<length; countt++)
 }
 
 
+//Vigenere cipher encryption
+int main()
+{
+    string password;
+    string key ;
+    string result;
+
+    int k=0;
+
+    std::cout<<"Enter the password to be encrypted"<<std::endl;
+    std::cin>>password;
+    std::cout<<"Enter the keyword"<<std::endl;
+    std::cin>>key;
+    for (int i=0;i<password.length();i++)
+    {
+        result[i]=(((password[i]-97)+(key[k]-97))%26)+97;
+        k++;
+        if(k==6)
+            k=0;
+    }
+    std::cout<<"     \n\n\n";
+    for(int i=0; i<password.length();i++);
+
+   return 0;
+
+
+
+}
+
+
 
 
 
