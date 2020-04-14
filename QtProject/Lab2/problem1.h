@@ -1,8 +1,7 @@
 #ifndef PROBLEM1_H
 #define PROBLEM1_H
 
-namespace problem1 {
+string show(  ) ;
 
-}
 
 #endif // PROBLEM1_H
