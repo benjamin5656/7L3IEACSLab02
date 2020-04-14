@@ -3,6 +3,7 @@
 
 #include "problem1.h"
 #include "problem2.h"
+Using namespace std;
 
 //Caesar cipher encrption
 int main()
