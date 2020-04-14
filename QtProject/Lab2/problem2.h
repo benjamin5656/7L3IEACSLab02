@@ -1,6 +1,9 @@
 #ifndef PROBLEM2_H
 #define PROBLEM2_H
-namespace problem2 {
+#include<string>
+using namespace std;
+#include <iostream>
 
-}
+  string show(  ) ;
+
 #endif // PROBLEM2_H
