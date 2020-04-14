@@ -3,5 +3,9 @@
 
 string show(  ) ;
 
+  Vigenere(string key);
+
+string encrypt(string text);
+
 
 #endif // PROBLEM1_H
