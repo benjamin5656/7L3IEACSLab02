@@ -1,7 +1,7 @@
 #ifndef PROBLEM1_H
 #define PROBLEM1_H
 
-string show(  ) ;
+std::string show(  ) ;
 
   Vigenere(string key);
 
