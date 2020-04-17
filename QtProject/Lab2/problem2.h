@@ -4,11 +4,10 @@
 using namespace std;
 #include <iostream>
 
-  string show(  ) ;
+//caeser cipher decryption  
+string show(  ) ;
 
-  Vigenere(string key);
-
-string decrypt(string text);
+  
 
 
 
